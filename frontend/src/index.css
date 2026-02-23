@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf9f6;
+    background-image:
+        linear-gradient(#e1e1e1 1px, transparent 1px),
+        linear-gradient(90deg, #e1e1e1 1px, transparent 1px);
+    background-size: 40px 40px;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #faf9f6;
+    border-left: 3px solid #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff90e8;
+    border: 3px solid #000;
+}
