@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as faceapi from "face-api.js";
-import "./css/FacialExpression.css";
+import "./css/facialExpression.css";
 import axios from 'axios';
 
 function FacialExpression({ setSongs }) {
